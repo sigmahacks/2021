@@ -228,7 +228,7 @@
 
 .nav-item:first-child {
   /* Spacing btwn first button & logo */
-  margin-left: 36px;
+  margin-left: -5px;
 }
 
 .nav-button {
