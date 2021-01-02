@@ -130,7 +130,7 @@
 }
 
 .marginTop--1 {
-  margin-top: 2.25rem;
+  margin-top: 1rem;
   /* 36px */
 }
 
@@ -154,6 +154,10 @@
   /* 144px */
 }
 
+.marginTop--4 {
+  margin-top: 2.5rem;
+}
+
 /****************************************************/
 
 .paddingBottom--1 {
@@ -169,7 +173,7 @@
 }
 
 .paddingTop--2 {
-  padding-top: 4.5rem;
+  padding-top: 1rem;
 }
 
 .paddingBottom--3 {
@@ -178,6 +182,21 @@
 
 .paddingTop--3 {
   padding-top: 9rem;
+}
+
+a {
+  transition: 0.2s;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  transition: 0.2s;
+  color: #383938;
+}
+
+p {
+  color: #f5dbd1;
 }
 
 /****************************************************/
@@ -194,19 +213,43 @@
 
 .siteHeader {
   /*background: #f4f4f9;*/
-  background: #4462b1;
+  background: #f9ac3d;
   padding: 24px;
   position: sticky;
-  top: 0;
+  margin-top: -5px;
   z-index: 1000;
 }
 
 .siteHeader--home {
   background: #4462b1;
-
+  margin-top: 0px;
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.siteHeader--about {
+  background: #f9ac3d;
+}
+
+.siteHeader--faq {
+  background: #cf4917;
+}
+
+.siteHeader--about .nav-button:hover {
+  color: #fff;
+}
+
+.siteHeader--about .nav-button-selected:hover {
+  color: #fff;
+}
+
+.siteHeader--faq .nav-button:hover {
+  color: #fff;
+}
+
+.siteHeader--faq .nav-button-selected:hover {
+  color: #fff;
 }
 
 .siteHeader--home.is-sticky {
@@ -274,12 +317,12 @@
   justify-content: center;
   text-decoration: none;
   align-self: flex-end;
-  color: #3379ff;
+  color: #fff;
   text-shadow: none;
   width: 190px;
   height: 48px;
   background-color: transparent;
-  border: 2px solid #3379ff;
+  border: 2px solid #fff;
   outline: none;
 }
 
@@ -296,13 +339,13 @@
 }
 
 .nav-tickets-button:hover {
-  color: #f4f4f9;
+  color: #4462b1;
   text-shadow: none;
   width: 190px;
   height: 48px;
   left: 1690px;
   top: 24px;
-  background-color: #3379ff;
+  background-color: #fff;
   border-style: none;
 }
 
@@ -340,7 +383,7 @@
   font-size: 8.34375rem;
   /*261.5px*/
   text-align: center;
-  color: #1b2c4a;
+  color: #fff;
   /* Text drop shadow */
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
@@ -466,6 +509,16 @@
 
 .intro {
   background: rgba(244, 244, 249, 0.85);
+}
+
+.welcome {
+  background-color: #fabd64;
+  height: 81vh;
+}
+
+.FAQ {
+  background-color: #d96d45;
+  
 }
 
 /*default title style*/
@@ -781,7 +834,7 @@ footer {
   line-height: 30px;
   font-size: 1.25rem;
   /* 20px */
-  color: #434343;
+  color: #531d09;
   margin-bottom: 1.5rem;
   /* 24px */
 }
