@@ -201,7 +201,7 @@
 }
 
 .siteHeader--home {
-  background: #3379ff;
+  background: #dabd8f;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -238,7 +238,7 @@
 }
 
 .siteHeader--home .nav-button {
-  color: #f4f4f9;
+  color: #2d758c;
 }
 
 .nav-button:hover {
@@ -246,7 +246,7 @@
 }
 
 .siteHeader--home .nav-button:hover {
-  border-bottom-color: #f4f4f9;
+  border-bottom-color: #2d758c;
 }
 
 .nav-button-selected {
@@ -256,8 +256,8 @@
 }
 
 .siteHeader--home .nav-button-selected {
-  color: #f4f4f9;
-  border-bottom-color: #f4f4f9;
+  color: #2d758c;
+  border-bottom-color: #2d758c;
 }
 
 .nav-tickets-button {
@@ -277,16 +277,16 @@
   outline: none;
 }
 
-.nav-tickets-button:active {
+/* .nav-tickets-button:active {
   transition: none;
   -moz-box-shadow: inset 0px 0px 0px 3px rgba(67, 67, 67, 0.3);
   -webkit-box-shadow: inset 0px 0px 0px 3px rgba(67, 67, 67, 0.3);
   box-shadow: inset 0px 0px 0px 3px rgba(67, 67, 67, 0.3);
-}
+} */
 
 .siteHeader--home .nav-tickets-button {
-  color: #ffde33;
-  border-color: #ffde33;
+  color: #2d758c;
+  border-color: #2d758c;
 }
 
 .nav-tickets-button:hover {
@@ -301,24 +301,26 @@
 }
 
 .siteHeader--home .nav-tickets-button:hover {
-  color: #434343;
-  background-color: #ffde33;
+  color: #dabd8f;
+  background-color: #2d758c;
 }
 
 /****************************************************/
 
 .hero-bg {
-  background-image: url(images/hero-bg.svg);
+  /* background-image: url(images/hero-bg.svg); */
   width: 100%;
   /*background-size: cover;*/
-  background-size: 125% auto;
-  background-position: top center;
+  background-size: 90% auto;
+  background-position: top;
+  /* background-image: url(images/Webp.net-resizeimage\ \(12\).png); */
+  background-color: #dabd8f;
 }
 
 .hero {
   /* background: #3379ff;
   padding-top: 258px; */
-  height: 75vh;
+  height: 91vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,7 +334,7 @@
   font-size: 8.34375rem;
   /*261.5px*/
   text-align: center;
-  color: #f4f4f9;
+  color: #cf4917;
   /* Text drop shadow */
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
@@ -347,7 +349,7 @@
   /*38px*/
   text-align: center;
   letter-spacing: 0.06em;
-  color: #f4f4f9;
+  color: #985914;
   /* Text drop shadow */
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
@@ -357,7 +359,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #434343;
+  color: #dabd8f;
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -366,24 +368,27 @@
   /*20px*/
   width: 392px;
   height: 74px;
-  background-color: #ffde33;
+  background-color: #2d758c;
   text-shadow: none;
   border-style: none;
   outline: none;
+  border-radius: 5px;
 }
 
-.hero-tickets-button:active {
+/* .hero-tickets-button:active {
   transition: none;
   -moz-box-shadow: inset 0px 0px 0px 3px #d4b344;
   -webkit-box-shadow: inset 0px 0px 0px 3px #d4b344;
   box-shadow: inset 0px 0px 0px 3px #d4b344;
-}
+} */
 
 .hero-tickets-button:hover {
-  background-color: #efce1f;
+  background-color: #2a326d;
+  border-radius: 15px;
 }
 
 .countdown {
+  height: 10.2vh;
   position: relative;
   background-image: url(images/bg.png);
   background-position: center;
@@ -394,8 +399,8 @@
 .countdown:before {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 0px;
+  height: 0px;
   background: #434343;
   left: 50%;
   bottom: 0;
