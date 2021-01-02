@@ -203,7 +203,7 @@
 
 .siteHeader--home {
   background: #4462b1;
-  padding: 24px;
+
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -316,9 +316,9 @@
 .hero-bg {
   /* background-image: url(images/hero-bg.svg); */
   width: 100%;
-  /*background-size: cover;*/
-  background-size: 90% auto;
-  background-position: top;
+  /* background-size: cover; */
+  background-size: 125% auto;
+  background-position: top center;
   /* background-image: url(images/Webp.net-resizeimage\ \(12\).png); */
   background-color: #4462b1;
 }
