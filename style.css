@@ -158,6 +158,10 @@
   margin-top: 2.5rem;
 }
 
+.marginTop--5 {
+  margin-top: 2.25rem;
+}
+
 /****************************************************/
 
 .paddingBottom--1 {
@@ -236,6 +240,10 @@ p {
   background: #cf4917;
 }
 
+.siteHeader--team {
+  background: #383938;
+}
+
 .siteHeader--about .nav-button:hover {
   color: #fff;
 }
@@ -244,12 +252,32 @@ p {
   color: #fff;
 }
 
+.siteHeader--about .nav-tickets-button:hover {
+  color: #f9ac3d;
+}
+
 .siteHeader--faq .nav-button:hover {
   color: #fff;
 }
 
 .siteHeader--faq .nav-button-selected:hover {
   color: #fff;
+}
+
+.siteHeader--faq .nav-tickets-button:hover {
+  color: #cf4917;
+}
+
+.siteHeader--team .nav-button:hover {
+  color: #fff;
+}
+
+.siteHeader--team .nav-button-selected:hover {
+  color: #fff;
+}
+
+.siteHeader--team .nav-tickets-button:hover {
+  color: #383938;
 }
 
 .siteHeader--home.is-sticky {
@@ -1135,7 +1163,7 @@ footer {
 /********************/
 
 .speakers {
-  background: #434343;
+  background: #747474;
 }
 
 .speakersContainer {
