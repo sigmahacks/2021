@@ -433,6 +433,7 @@ p {
 
 .hero-tickets-button:hover {
   background-color: #375496;
+  color: #fff;
   border-radius: 15px;
 }
 
