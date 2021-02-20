@@ -162,6 +162,10 @@
   margin-top: 2.25rem;
 }
 
+.marginTop--6 {
+  margin-top: 0.25rem;
+}
+
 /****************************************************/
 
 .paddingBottom--1 {
@@ -252,6 +256,10 @@ p {
   background: #27ae60;
 }
 
+.siteHeader--sponsorship {
+  background: #2d758c;
+}
+
 .siteHeader--about .nav-button:hover {
   color: #fff;
 }
@@ -298,6 +306,18 @@ p {
 
 .siteHeader--schedule .nav-tickets-button:hover {
   color: #27ae60;
+}
+
+.siteHeader--sponsorship .nav-button:hover {
+  color: #fff;
+}
+
+.siteHeader--sponsorship .nav-button-selected:hover {
+  color: #fff;
+}
+
+.siteHeader--sponsorship .nav-tickets-button:hover {
+  color: #2d758c;
 }
 
 .siteHeader--home.is-sticky {
@@ -570,6 +590,14 @@ p {
   
 }
 
+.sponsorship {
+  background-color: #5791a3;
+}
+
+.sponsors {
+  background-color: #5791a3;
+}
+
 /*default title style*/
 
 .title {
@@ -733,13 +761,13 @@ p {
   height: 200px;
 }
 
-.sponsor-logo {
+/* .sponsor-logo {
   transition: all 0.2s ease-in-out;
-}
+} */
 
-.sponsor-logo:hover {
+/* .sponsor-logo:hover {
   opacity: 0.5;
-}
+} */
 
 /** Footer CSS **/
 
