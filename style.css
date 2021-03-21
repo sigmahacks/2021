@@ -430,8 +430,8 @@ p {
   /* background-size: cover; */
   background-size: 125% auto;
   background-position: top center;
-  /* background-image: url(images/Webp.net-resizeimage\ \(12\).png); */
-  background-color: #4462b1;
+   background-image: url(images/revisedLanding.jpg); 
+/*  background-color: #4462b1;*/
 }
 
 .hero {
@@ -466,7 +466,8 @@ p {
   /*38px*/
   text-align: center;
   letter-spacing: 0.06em;
-  color: #233963;
+/*  color: #233963;*/
+    color:white;
   /* Text drop shadow */
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
