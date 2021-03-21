@@ -1217,9 +1217,10 @@ footer {
 
 .speakersContainer {
   width: 798px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
+    
 }
 
 .speaker {
