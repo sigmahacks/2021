@@ -477,7 +477,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #f9ac3d;
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -486,10 +486,9 @@ p {
   /*20px*/
   width: 392px;
   height: 74px;
-  background-color: #2c467c;
+  background-color: transparent;
   text-shadow: none;
-  border-style: none;
-  outline: none;
+  border: 2px solid #f9ac3d;
   border-radius: 5px;
 }
 
@@ -501,8 +500,9 @@ p {
 } */
 
 .hero-tickets-button:hover {
-  background-color: #375496;
-  color: #fff;
+  font-size: 1.3rem;
+  background-color: transparent;
+  color: #f9ac3d;
   border-radius: 15px;
 }
 
