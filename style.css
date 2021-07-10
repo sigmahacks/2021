@@ -248,6 +248,10 @@ p {
   background: #cf4917;
 }
 
+.siteHeader--prizes {
+  background: #2f3814;
+}
+
 .siteHeader--team {
   background: #383938;
 }
@@ -472,6 +476,22 @@ p {
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
+.hero-megasubtitle {
+  padding-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 1rem;
+  /*38px*/
+  text-align: center;
+  letter-spacing: 0.06em;
+/*  color: #233963;*/
+    color:white;
+  /* Text drop shadow */
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
 .hero-tickets-button {
   transition: all 0.2s ease-in-out;
   display: flex;
@@ -588,8 +608,9 @@ p {
 
 .FAQ {
   background-color: #d96d45;
-  
 }
+
+
 
 .sponsorship {
   background-color: #5791a3;
@@ -630,6 +651,12 @@ p {
 .para--newsletter {
   color: #bababa;
 }
+
+.para--newsletter-judges {
+  color: #383938;
+  font-size: 14px;
+}
+
 
 .form-input-text {
   width: 404px;
@@ -1212,8 +1239,14 @@ footer {
 /********************/
 
 .speakers {
-  background: #747474;
+  background: #494949;
 }
+
+.judges {
+  background: #f4f4f9;
+
+}
+
 
 .speakersContainer {
   width: 798px;
@@ -1233,6 +1266,11 @@ footer {
   height: 189px;
 }
 
+.judge-headshot {
+  width: 151px;
+  height: 151px;
+}
+
 .speaker-name {
   text-align: center;
   font-style: normal;
@@ -1240,6 +1278,17 @@ footer {
   font-size: 20px;
   line-height: normal;
   color: #f4f4f9;
+  padding-top: 10px;
+}
+
+.judge-name {
+  white-space: nowrap;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: normal;
+  color:#383938;
   padding-top: 10px;
 }
 
